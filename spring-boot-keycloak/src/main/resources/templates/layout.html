@@ -15,4 +15,5 @@
 <div id="pagefoot" th:fragment="footerFragment">
 	<p>Document last modified 2017/10/23.</p>
 	<p>Copyright: Lorem Ipsum</p>
+	<button type="button" th:onclick="'location.href=\'' + @{/logout} + '\';'">Logout</button>
 </div>
